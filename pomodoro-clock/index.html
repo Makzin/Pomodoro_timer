@@ -11,22 +11,30 @@
 
 <body>
   <h1> Pomodoro Clock</h1>
-<button class='start'>Start</button>
 
+<button class='start'>Start</button>
 <button class='stop'>Stop</button>
 <button class='reset'>Reset</button>
 
-<button class='Break'>Break</button>
-
 <div id='result'></div>
 
+<div class = 'selectionSection'>
+<div id = 'timerSelect'>
+  <p>SESSION LENGTH</p>
+<button class='incrementSession'>+</button>
+<div id='desiredTime'></div>
+<button class='decrementSession'>-</button>
+</div>
 
 
-<button class='incrementSession'>Session +</button>
-<div class='desiredTime'></div>
-<button class='decrementSession'>Session -</button>
+<div id = 'breakSelect'>
+<p>BREAK LENGTH</p>
+<button class='incrementBreak'>+</button>
+<div id='desiredBreak'></div>
+<button class='decrementBreak'>-</button>
+</div>
 
-
+</div>
 
 </body>
 </html>
